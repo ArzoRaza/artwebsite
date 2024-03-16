@@ -1,0 +1,399 @@
+<html lang="en">
+<head>
+    <title>Project three the art</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,600&display=swap');
+/* "Open Sans", sans-serif; */
+
+/* Resets */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #79ff6c;
+    margin: 1rem;
+}
+.wrapper-container{
+    background-color: rgb(140, 149, 141);
+    border-radius: 15px;
+}
+
+
+html{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Nav Start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 5rem;
+}
+
+nav ul {
+    margin-left: 5rem;
+    list-style: none;
+}
+
+li h1 {
+    cursor: pointer;
+}
+
+nav .burger {
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+nav .burger span {
+    height: 4px;
+    color: #79ff6c;
+    border: 2px solid rgb(2, 1, 2);
+    margin: 4px;
+    padding: 5px;
+    font-size: 20px;
+    font-style: none;
+    border: none;
+    border-radius: 20px;
+    background: rgb(96, 83, 83);
+}
+.srch {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 40%;
+    border: 2px solid rgb(0, 0, 0);
+    color: #79ff6c;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    padding: 0.2rem;
+    width: 300px;
+    cursor: pointer;
+}
+
+#icon {
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    color: #79ff6c;
+    right: 7%;
+    top: 7px;
+
+}
+/* nav end  */
+
+/* Header Start */
+header {
+    margin: 6rem;
+}
+
+.main-headings {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 10rem;
+    font-size: 4rem;
+    font-weight: 900;
+    /* background: grey; */
+}
+
+.primary-headings {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 35px
+}
+
+.bg-gray {
+    /* background: rgb(140, 149, 141); */
+    color: white;
+    padding: 2px 10px;
+    font-weight: bold;
+}
+/* Header End */
+
+/* Main Start */
+main {
+    margin: 0 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+}
+
+main .imgs {
+    width: 18%;
+    margin: 10px;   
+    object-fit: cover; 
+    border-radius: 15px;
+
+}
+/* Main End */
+
+
+/* Section Three start */
+.section-three{
+    margin-left: 5rem;
+}
+
+.section-three .primary-headings {
+    margin-bottom: 10rem;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.item h1 {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.section-three img {
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 15px;
+    
+}
+
+
+/* Section three end */
+
+
+/* Footer start*/
+footer {
+    margin-top: 10rem;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background: rgb(68, 88, 90);
+}
+
+footer .logo-container h1 {
+    font-size: 4rem;
+    width: 150px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid #79ff6c;
+    cursor: pointer;
+
+}
+
+footer .logo-container p {
+    max-width: 400px;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+footer .about-conmpany {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .about-conmpany .container {
+    margin-right: 40px;
+    margin-top: 20xp;
+} 
+
+.about-conmpany .container h1 {
+    margin-bottom: 50px;
+}
+
+.about-conmpany .container p {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Project End  */
+
+
+/* Responsive Start here */
+@media screen and (max-width: 740px ) {
+    header .main-heading {
+        width: 100%;
+    }
+    header .primary-headings{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .section-three .main-heading{
+        width: 100%;
+    }
+    .section-three .primary-headings{
+        width: 100%;
+        font-size: 1.5rem;
+
+    }
+    .section-three img{
+        margin: 0;
+    }
+}
+    </style>
+</head>
+<body>
+    <!-- NavBar -->
+    <div class="wrapper-container">
+    <section >
+        <nav>
+            <ul>
+                <li>
+                    <h1>Logo</h1>
+                </li>
+            </ul>
+            <span class="srch">Search <i class="ri-search-line" id="icon"></i> </span>
+
+            <div class="burger">
+                <span>Home</span>
+                <span>Loge In</span>
+                <span>Sing Up</span>
+            </div>
+        </nav>
+    </section>
+    <!-- Nav End -->
+    
+    <!-- HEADER AREA START-->
+    <header>
+        <h1 class="main-heading">
+            WHAT <br>
+            IS CALLED ART?
+        </h1>
+        <p class="primary-headings">
+            Art, also called (to distnguish it fro other art 
+            forms) visual art, a <span class="bg-gray">visual object or 
+            experience</span> consiously created through an 
+            expression of skill or imagination. 
+        </p>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Start -->
+    <main>
+        <img src="https://images.unsplash.com/photo-1524580477099-d6ef682e2a2c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzh8fHRoZWF0ZXJ8ZW58MHx8MHx8fDA%3D" alt="picture" class="imgs">
+
+        <img src="https://images.unsplash.com/photo-1709642717827-9621f2a978a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D" class="imgs">
+
+        <img src="https://images.unsplash.com/photo-1621784564114-6eea05b89863?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fG1vZGVsJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D" alt="picture" class="imgs">
+
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bW9kZWwlMjBnaXJsJTIwYWl8ZW58MHx8MHx8fDA%3D" alt="picture" class="imgs">
+
+        <img src="https://images.unsplash.com/photo-1673255745677-e36f618550d1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGFpJTIwaW1hZ2VzfGVufDB8fDB8fHww" alt="picture" class="imgs">
+
+        <img src="https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXJ0fGVufDB8fDB8fHww" alt="picture" class="imgs">
+
+        <img src="https://images.unsplash.com/photo-1586078130702-d208859b6223?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1vZGVsJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D" alt="picture" class="imgs">
+
+        <img src="https://images.unsplash.com/photo-1611042553365-9b101441c135?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW9kZWwlMjBnaXJsfGVufDB8fDB8fHww" alt="picture" class="imgs">
+
+        <img src="https://images.unsplash.com/photo-1625314868143-20e93ce3ff33?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGFpJTIwaW1hZ2VzfGVufDB8fDB8fHww" alt="picture" class="imgs">
+
+        <img src="https://images.unsplash.com/photo-1595959183082-7b570b7e08e2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTExfHxBaSUyMGdlbmVyYXRlZCUyMG1vZGVsJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D"
+        class="imgs" alt="picture" class="img1">
+    </main>
+
+    <section class="section-three">
+        <h1 class="main-headings">7 TYPES OF ART</h1>
+        <p class="primary-headings">
+            the seven different art forms are <span class="bg-gray">Painting, Sculpture, Literature, Architecture, Theater, Film, and Music</span>. However, back in the day, the seven different art forms were called the liberal Arts, consisting of Grammar, Logic Rhetoric, Arithmetic, Geometry, Astronomy, and Music.
+        </p>
+
+        <div class="list">
+            <div class="item one">
+                <h1>PAINTING</h1>
+                <img src="https://images.unsplash.com/photo-1615339725569-80172615f345?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHBhaW50aW5nfGVufDB8fDB8fHwwalt=" alt="image">
+            </div>
+            <div class="item two">
+                <h1>SCULPTURE</h1>
+                <img src="https://images.unsplash.com/photo-1593283590172-adfce2adf213?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U0NVTFBUVVJFfGVufDB8fDB8fHww" alt="image">
+            </div>
+            <div class="item three">
+                <h1>LITERATURE</h1>
+                <img src="https://images.unsplash.com/photo-1604342162684-0cb7869cc445?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGxpdGVyYXR1cmUlMjBBUlR8ZW58MHx8MHx8fDA%3D" alt="image">
+            </div>
+            <div class="item four">
+                <h1>ARCHITECTURE</h1>
+                <img src="https://images.unsplash.com/photo-1593741033257-976c42bbac85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fEFSQ0hJVEVDVFVSRSUyMEFSVHxlbnwwfHwwfHx8MA%3D%3D" alt="image">
+            </div>
+            <div class="item part2">
+                <h1>THEATER</h1>
+                <img src="https://images.unsplash.com/photo-1546872006-42c78c0ccb29?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHRoZWF0ZXJ8ZW58MHx8MHx8fDA%3D" alt="image">
+            </div>
+            <div class="item part2">
+                <h1>FILM</h1>
+                <img src="https://images.unsplash.com/photo-1604975701397-6365ccbd028a?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image">
+            </div>
+            <div class="item part2">
+                <h1>MUSIC</h1>
+                <img src="https://images.unsplash.com/photo-1485579149621-3123dd979885?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG11c2ljfGVufDB8fDB8fHww" alt="image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section three ended -->
+
+
+    <!--  Footer start -->
+
+    <footer>
+        <div class="logo-container">
+            <h1>Logo</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iusto nam facilis, maiores obcaecati eius corrupti error unde nostrum porro! Doloremque officiis quisquam magni consequatur sint iure, distinctio consectetur id, dolor tempora accusantium obcaecati explicabo veniam! Error aspernatur exercitationem quo.</p>
+        </div>
+
+        <div>
+            <div class="about-conmpany">
+                <div class="container">
+                    <h1>About</h1>
+                    <p>News & Blog</p>
+                    <p>Featurs</p>
+                    <p>About Us</p>
+                </div>
+                <div class="container">
+                    <h1>Company</h1>
+                    <p>How We Work</p>
+                    <p>Capital</p>
+                    <p>Security</p>
+                </div>
+                <div class="container">
+                    <h1>Support</h1>
+                    <p>FAQs</p>
+                    <p>mail</p>
+                    <p>Contact Us</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
+
